@@ -1,0 +1,13 @@
+variable,dtype,nulos,pct_nulos,valores_unicos
+Cabin,object,687,77.1,147
+Age,float64,177,19.9,88
+Embarked,object,2,0.2,3
+Survived,int64,0,0.0,2
+Sex,object,0,0.0,2
+Pclass,int64,0,0.0,3
+SibSp,int64,0,0.0,7
+Parch,int64,0,0.0,7
+Fare,float64,0,0.0,248
+Ticket,object,0,0.0,681
+PassengerId,int64,0,0.0,891
+Name,object,0,0.0,891

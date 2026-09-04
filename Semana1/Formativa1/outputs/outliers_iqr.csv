@@ -1,0 +1,3 @@
+variable,q1,q3,iqr,limite_inferior,limite_superior,n_posibles_outliers,pct_posibles_outliers
+Age,20.12,38.0,17.88,-6.69,64.81,11.0,1.54
+Fare,7.91,31.0,23.09,-26.72,65.63,116.0,13.02

@@ -1,0 +1,13 @@
+variable,rol_interpretado,uso_inicial
+PassengerId,Identificador,Control de registros
+Survived,Binaria objetivo descriptivo,Variable principal
+Pclass,Categórica ordinal,Comparación de grupos
+Name,Texto/identificación,Contexto; no se usa como predictor en esta fase
+Sex,Categórica nominal,Comparación de grupos
+Age,Numérica continua,Distribución y comparación
+SibSp,Numérica discreta,Composición familiar
+Parch,Numérica discreta,Composición familiar
+Ticket,Texto/categórica de alta cardinalidad,Revisión de cardinalidad
+Fare,Numérica continua,Distribución y comparación
+Cabin,Texto/categórica con alta ausencia,Revisión de calidad
+Embarked,Categórica nominal,Comparación de grupos
