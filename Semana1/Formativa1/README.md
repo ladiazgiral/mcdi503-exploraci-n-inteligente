@@ -49,14 +49,13 @@ El notebook se organiza principalmente en torno a las siguientes preguntas:
 ├── figures/
 │   └── *.png
 ├── notebooks/
-│   └── mcdi503_f1f_eda_titanic.ipynb
+│   └── mcdi503_f01_g6.ipynb
 ├── outputs/
 │   ├── *.csv
 │   ├── resumen_eda.md
 │   └── manifest_ejecucion.txt
 ├── Reports/
-│   ├── mcdi503_f1f_grupo_luis_gonzalo_eduardo.pdf
-│   └── mcdi503_f1f_grupo_luis_gonzalo_eduardo.docx
+│   ├── mcdi503_f01_g6.pdf
 ├── requirements.txt
 └── README.md
 ```
