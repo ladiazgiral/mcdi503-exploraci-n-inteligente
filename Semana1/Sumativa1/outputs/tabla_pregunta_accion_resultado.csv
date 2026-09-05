@@ -1,0 +1,6 @@
+Pregunta,Acción ejecutada,Resultado inicial,Evidencia
+P1,Tasa global y por Sex,"38,4 % global; 74,2 % mujeres; 18,9 % hombres",Figura 2
+P2,Tasas por Pclass y cruce Sex × Pclass,"63,0 % clase 1; 47,3 % clase 2; 24,2 % clase 3",Figura 2
+P3,Descriptivos y boxplot de Age,177 nulos; mediana 28 en ambos grupos,Figuras 1-2
+P4,"Fare: IQR, supervivencia, Pclass y cruce","Medianas por clase 60,29 / 14,25 / 8,05; 26,0 vs 10,5 por supervivencia",Figuras 1 y 3
+P5,FamilySize y tasas con n por grupo,"Patrón no lineal; solo 30,4 % vs acompañado 50,6 %",Figura 2
