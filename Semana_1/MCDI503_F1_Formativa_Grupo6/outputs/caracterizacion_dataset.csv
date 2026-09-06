@@ -1,0 +1,16 @@
+﻿variable,tipo,nulos,porcentaje_nulos,valores_unicos
+survived,int64,0,0.0,2
+pclass,int64,0,0.0,3
+sex,object,0,0.0,2
+age,float64,177,19.87,88
+sibsp,int64,0,0.0,7
+parch,int64,0,0.0,7
+fare,float64,0,0.0,248
+embarked,object,2,0.22,3
+class,object,0,0.0,3
+who,object,0,0.0,3
+adult_male,bool,0,0.0,2
+deck,object,688,77.22,7
+embark_town,object,2,0.22,3
+alive,object,0,0.0,2
+alone,bool,0,0.0,2

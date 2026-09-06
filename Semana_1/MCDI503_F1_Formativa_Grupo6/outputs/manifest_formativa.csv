@@ -1,0 +1,12 @@
+﻿elemento,valor
+dataset,data/input/titanic_seaborn.csv
+sha256,43af81a01f25a7771c9a42809a31625f4d0de3f335cdf29961f9ba179a86c13d
+filas,891
+columnas,15
+python,3.12.4
+pandas,2.2.2
+numpy,1.26.4
+seaborn,0.13.2
+ipykernel,6.28.0
+notebook,7.0.8
+jupyterlab,4.0.11

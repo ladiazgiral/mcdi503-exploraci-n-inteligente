@@ -1,0 +1,10 @@
+integridad_hash=OK
+dimensiones_dataset=OK
+columnas_esperadas=OK
+caracterizacion_exportada=OK
+rangos_exportados=OK
+categorias_exportadas=OK
+plan_exportado=OK
+manifest_exportado=OK
+resumen_exportado=OK
+estado_global=OK
