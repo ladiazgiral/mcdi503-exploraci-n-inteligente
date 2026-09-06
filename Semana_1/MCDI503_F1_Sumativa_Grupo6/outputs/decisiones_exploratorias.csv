@@ -1,0 +1,8 @@
+ID,Decisión,Motivo,Resultado intermedio
+D1,Utilizar una copia local auditada del dataset Titanic de Seaborn,Evitar dependencias externas y asegurar identidad del insumo,SHA-256 verificado; entrada 891 × 15
+D2,No imputar valores faltantes en esta fase,Evitar introducir supuestos de tratamiento antes de completar el diagnóstico,Variables con faltantes documentadas: 4
+D3,Tratar pclass como variable ordinal categórica,Sus valores representan categorías de clase y no una magnitud continua,Comparaciones ejecutadas por categoría y en cruce con sex
+D4,Derivar FamilySize = sibsp + parch + 1,Representar de forma reproducible el tamaño familiar registrado a bordo,FamilySize generada con 9 niveles observados
+D5,Derivar IsAlone como síntesis secundaria,Comparar viajar solo frente a registrar al menos un familiar sin reemplazar FamilySize,IsAlone generada con 2 categorías
+D6,Conservar observaciones extremas de fare identificadas mediante IQR,La condición estadística de valor extremo no demuestra por sí misma un error de registro,116 observaciones identificadas y conservadas
+D7,Conservar filas completamente coincidentes cuando no exista identificador individual único,Evitar eliminar observaciones sin evidencia suficiente de duplicidad del mismo pasajero,107 filas completamente coincidentes documentadas y conservadas

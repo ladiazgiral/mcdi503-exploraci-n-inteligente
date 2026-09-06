@@ -1,0 +1,10 @@
+variable,n_categorias_validas,categorias_observadas
+sex,2,female | male
+embarked,3,C | Q | S
+class,3,First | Second | Third
+who,3,child | man | woman
+adult_male,2,False | True
+deck,7,A | B | C | D | E | F | G
+embark_town,3,Cherbourg | Queenstown | Southampton
+alive,2,no | yes
+alone,2,False | True
