@@ -1,0 +1,10 @@
+# MCDI503 - Evaluación Sumativa 1 - Grupo 6
+# Versiones exactas registradas en la ejecución definitiva del 06-09-2026.
+
+numpy==1.26.4
+pandas==2.2.2
+seaborn==0.13.2
+matplotlib==3.8.4
+ipykernel==6.28.0
+notebook==7.0.8
+jupyterlab==4.0.11

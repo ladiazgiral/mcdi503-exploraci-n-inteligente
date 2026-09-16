@@ -1,0 +1,7 @@
+variable,minimo,maximo,mediana
+survived,0.0,1.0,0.0
+pclass,1.0,3.0,3.0
+age,0.42,80.0,28.0
+sibsp,0.0,8.0,0.0
+parch,0.0,6.0,0.0
+fare,0.0,512.3292,14.4542

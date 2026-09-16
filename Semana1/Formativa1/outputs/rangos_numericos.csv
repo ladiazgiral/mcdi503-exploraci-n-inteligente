@@ -1,5 +1,0 @@
-variable,min,max,mediana
-Age,0.42,80.0,28.0
-Fare,0.0,512.3292,14.4542
-SibSp,0.0,8.0,0.0
-Parch,0.0,6.0,0.0

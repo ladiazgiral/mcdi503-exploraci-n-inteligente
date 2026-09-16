@@ -1,0 +1,11 @@
+name: mcdi503-f1-formativa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - seaborn=0.13.2
+  - ipykernel=6.28.0
+  - notebook=7.0.8
+  - jupyterlab=4.0.11

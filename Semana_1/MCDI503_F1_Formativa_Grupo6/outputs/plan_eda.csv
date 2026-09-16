@@ -1,0 +1,6 @@
+﻿ID,pregunta,variables,accion_prevista,evidencia_prevista
+P1,Supervivencia general y según sex,"survived, sex",Calcular tasas y comparar descriptivamente por sexo,Tabla y visualización
+P2,Supervivencia según pclass y cruce sex × pclass,"survived, pclass, sex",Calcular tasas por clase y cruce de categorías,Tablas y visualización
+P3,Distribución de age y comparación según survived,"age, survived","Cuantificar faltantes, descriptivos y distribución",Tabla y visualización
+P4,Comportamiento de fare respecto de pclass y survived,"fare, pclass, survived","Describir distribución, IQR y comparaciones por grupos",Tablas y visualizaciones
+P5,Tamaño familiar y supervivencia,"sibsp, parch, survived",Construir FamilySize e IsAlone y comparar tasas,Tablas y visualización

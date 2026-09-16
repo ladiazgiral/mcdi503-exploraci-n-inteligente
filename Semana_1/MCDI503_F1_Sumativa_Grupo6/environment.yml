@@ -1,0 +1,14 @@
+name: mcdi503_f1_g6
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - pandas==2.2.2
+      - seaborn==0.13.2
+      - matplotlib==3.8.4
+      - ipykernel==6.28.0
+      - notebook==7.0.8
+      - jupyterlab==4.0.11

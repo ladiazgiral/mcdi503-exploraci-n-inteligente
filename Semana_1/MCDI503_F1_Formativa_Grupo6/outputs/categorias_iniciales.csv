@@ -1,0 +1,9 @@
+﻿variable,categorias_observadas
+sex,"female, male"
+embarked,"C, Q, S"
+class,"First, Second, Third"
+who,"child, man, woman"
+deck,"A, B, C, D, E, F, G"
+embark_town,"Cherbourg, Queenstown, Southampton"
+alive,"no, yes"
+alone,"False, True"
