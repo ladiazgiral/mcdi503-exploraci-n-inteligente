@@ -1,0 +1,8 @@
+metrica,valor
+filas_core,891
+filas_context,891
+filas_merged,891
+claves_core_unicas,True
+claves_context_unicas,True
+coincidencias_both,891
+left_only,0

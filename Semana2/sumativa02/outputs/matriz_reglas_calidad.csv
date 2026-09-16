@@ -1,0 +1,6 @@
+campo,regla,diagnostico,prioridad,accion
+age,Completitud,"177 faltantes (~19,9%)",Alta,Imputar mediana por sex x class en variable nueva + bandera
+deck,Completitud,"687 faltantes (~77,1%)",Media,No adivinar; usar Unknown + indicador
+embarked / embark_town,Completitud,"2 faltantes (~0,2%)",Media,Completar con moda manteniendo coherencia
+filas,Unicidad,107 duplicadas,Baja,No eliminar
+age / fare,Validez,Extremos estadísticos pero rangos plausibles,Media,Investigar antes de eliminar

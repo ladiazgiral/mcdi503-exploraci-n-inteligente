@@ -1,0 +1,21 @@
+{
+  "input_file": "data\\input\\titanic.csv",
+  "input_sha256": "3f8634bcaaf74de14b974058067a09476585f88c75fbd6043ac7a42faa171b35",
+  "rows": 891,
+  "columns_prepared": 21,
+  "schema": "Seaborn",
+  "python": "3.12.10",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "seaborn": "0.13.2",
+  "figures": [
+    "01_diagnostico_missing.png",
+    "02_univariado_age.png",
+    "03_univariado_fare.png",
+    "04_bivariado_sexo_clase.png",
+    "05_bivariado_familia.png",
+    "06_bivariado_edad_fare.png",
+    "07_outliers_fare_clase.png"
+  ]
+}
