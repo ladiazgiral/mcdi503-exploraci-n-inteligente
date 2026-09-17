@@ -1,0 +1,16 @@
+,tipo,n_unicos,n_missing,pct_missing
+survived,int64,2,0,0.0
+pclass,int64,3,0,0.0
+sex,object,2,0,0.0
+age,float64,88,177,19.87
+sibsp,int64,7,0,0.0
+parch,int64,7,0,0.0
+fare,float64,248,0,0.0
+embarked,object,3,2,0.22
+class,object,3,0,0.0
+who,object,3,0,0.0
+adult_male,bool,2,0,0.0
+deck,object,7,688,77.22
+embark_town,object,3,2,0.22
+alive,object,2,0,0.0
+alone,bool,2,0,0.0

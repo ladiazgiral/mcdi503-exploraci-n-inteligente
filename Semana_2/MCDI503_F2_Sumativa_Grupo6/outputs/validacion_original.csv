@@ -1,0 +1,16 @@
+test,incumplimientos,cumple
+survived_en_0_1,0,True
+pclass_en_1_2_3,0,True
+sex_valido,0,True
+edad_entre_0_y_120_o_missing,0,True
+fare_finita_no_negativa,0,True
+sibsp_entero_no_negativo,0,True
+parch_entero_no_negativo,0,True
+embarked_valido_o_missing,0,True
+deck_valido_o_missing,0,True
+class_coherente_pclass,0,True
+alive_coherente_survived,0,True
+embark_town_coherente,0,True
+alone_coherente,0,True
+who_coherente_edad_sexo,0,True
+adult_male_coherente_who,0,True

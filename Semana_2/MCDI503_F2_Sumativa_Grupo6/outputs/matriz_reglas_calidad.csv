@@ -1,6 +1,7 @@
-campo,regla,diagnostico,prioridad,accion
-age,Completitud,"177 faltantes (~19,9%)",Alta,Imputar mediana por sex x class en variable nueva + bandera
-deck,Completitud,"687 faltantes (~77,1%)",Media,No adivinar; usar Unknown + indicador
-embarked / embark_town,Completitud,"2 faltantes (~0,2%)",Media,Completar con moda manteniendo coherencia
-filas,Unicidad,107 duplicadas,Baja,No eliminar
-age / fare,Validez,Extremos estadísticos pero rangos plausibles,Media,Investigar antes de eliminar
+campo,regla,test,diagnostico,prioridad,accion
+age,Completitud,isna().sum(),"177 (19,9%)",Alta,Mediana por sexo y clase; variable nueva y bandera
+deck,Completitud,isna().sum(),"688 (77,2%)",Media,Unknown y bandera; no inferir cubierta
+embarked,Completitud,isna().sum(),"2 (0,2%)",Media,Moda; reconstruir ciudad en variable nueva
+filas,Unicidad,duplicated().sum(),107 repeticiones adicionales,Alta,Conservar: sin ID no prueban duplicación real
+variables relacionadas,Consistencia,checks entre campos,0 incumplimientos,Alta,Sin correcciones; validar tras preparar
+age / fare,Plausibilidad,IQR y reglas de rango,Ver sección IX,Media,Marcar e investigar; no eliminar por distancia estadística
