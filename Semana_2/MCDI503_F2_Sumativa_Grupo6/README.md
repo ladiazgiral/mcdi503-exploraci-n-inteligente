@@ -28,7 +28,6 @@ El proyecto está preparado para ejecutarse de forma local con **Python y Jupyte
 │   ├── input/
 │   │   └── titanic.csv
 │   └── process/
-│       └── titanic_f23_prepared.csv
 │
 ├── figures/
 │   └── visualizaciones generadas por el notebook
