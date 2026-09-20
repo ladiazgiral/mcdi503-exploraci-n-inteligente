@@ -87,13 +87,14 @@ git clone https://github.com/<usuario>/<repositorio>.git
 
 > Reemplace `<usuario>/<repositorio>` por la URL real del repositorio en GitHub.
 
-Luego ingrese a la carpeta clonada. Por ejemplo:
+Luego ingrese al repositorio clonado y, desde allí, al subproyecto de la Evaluación Sumativa 2:
 
 ```powershell
-cd mcdi503_f23_sumativo_grupo6
+cd mcdi503-exploraci-n-inteligente
+cd Semana_2/MCDI503_F2_Sumativa_Grupo6
 ```
 
-Todos los comandos siguientes deben ejecutarse desde la **raíz del repositorio**, donde se encuentran `requirements.txt`, `README.md`, `data/`, `notebooks/`, `figures/` y `outputs/`.
+Todos los comandos siguientes deben ejecutarse desde la **raíz de este subproyecto**, donde se encuentran `requirements.txt`, `README.md`, `data/`, `notebooks/`, `figures/` y `outputs/`.
 
 ---
 
@@ -149,7 +150,7 @@ El uso de `python -m pip` asegura que la instalación se realice con el mismo in
 python -m pip install -r requirements.txt
 ```
 
-El archivo `requirements.txt` contiene las librerías necesarias para reproducir el proyecto, incluyendo `pandas`, `numpy`, `matplotlib`, `seaborn`, `notebook` y `jupyterlab`.
+El archivo `requirements.txt` define las dependencias necesarias para reproducir el proyecto. La instalación resuelve el entorno de Jupyter requerido por `notebook`, junto con `pandas`, `numpy`, `matplotlib`, `seaborn` y las utilidades de ejecución declaradas.
 
 ---
 
@@ -227,8 +228,9 @@ Ejemplo resumido de una instalación nueva:
 # 1. Clonar repositorio
 git clone https://github.com/<usuario>/<repositorio>.git
 
-# 2. Entrar al proyecto
-cd mcdi503_f23_sumativo_grupo6
+# 2. Entrar al subproyecto
+cd mcdi503-exploraci-n-inteligente
+cd Semana_2/MCDI503_F2_Sumativa_Grupo6
 
 # 3. Crear entorno virtual
 python -m venv .venv
