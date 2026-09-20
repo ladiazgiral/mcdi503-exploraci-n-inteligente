@@ -1,12 +1,10 @@
 # MCDI503 - Exploración Inteligente para la Ciencia de Datos
 
-## Proyecto Fase 1 - Grupo 6
+## Proyecto integrado · Grupo 6
 
-Repositorio académico correspondiente a la **Fase 1** de la asignatura **MCDI503 - Exploración Inteligente para la Ciencia de Datos**.
+Repositorio académico desarrollado para la asignatura **MCDI503 - Exploración Inteligente para la Ciencia de Datos**. El proyecto mantiene continuidad sobre el dataset **Titanic** y documenta, de forma progresiva y reproducible, el proceso de exploración, preparación, transformación e ingeniería preliminar de características desarrollado durante las Semanas 1, 2 y 3.
 
-El proyecto desarrolla una primera aproximación reproducible al análisis exploratorio de datos utilizando el conjunto **Titanic** distribuido mediante Seaborn. La Fase 1 se organiza en dos entregas complementarias: una **evaluación formativa**, orientada a la definición del proyecto, caracterización inicial del dataset y planificación del EDA; y una **evaluación sumativa**, centrada en la implementación reproducible del análisis, documentación de decisiones, transformaciones y resultados exploratorios.
-
-## Integrantes
+### Integrantes
 
 - Luis Díaz
 - Gonzalo Bouldres
@@ -14,109 +12,256 @@ El proyecto desarrolla una primera aproximación reproducible al análisis explo
 
 **Docente:** Sergio Paraíso
 
-## Estructura del repositorio
+---
+
+## Propósito del repositorio
+
+El repositorio conserva la trazabilidad completa del proyecto desde la definición inicial del problema hasta el cierre técnico de la Fase 4. Cada semana mantiene sus propios entregables académicos y, cuando corresponde, notebooks ejecutados, datos de entrada y proceso, figuras, salidas de auditoría y archivos de dependencias.
+
+El flujo general del proyecto es:
 
 ```text
-Semana_1/
-├── MCDI503_F1_Formativa_Grupo6/
-│   ├── data/
-│   ├── notebooks/
-│   ├── outputs/
-│   ├── Reports/
-│   ├── README.md
-│   ├── SHA256_INPUT.txt
-│   ├── environment.yml
-│   └── requirements.txt
+Titanic · 891 registros × 15 variables
+                │
+                ▼
+Semana 1 · Fase 1
+Definición del proyecto y EDA reproducible
+                │
+                ▼
+Semana 2 · Fases 2 y 3
+Calidad, limpieza, integración, preparación y EDA
+                │
+                ▼
+titanic_f23_prepared.csv · 891 × 29
+                │
+                ▼
+Semana 3 · Fase 4
+Ingeniería de variables y selección preliminar
+                │
+                ├── Dataset enriquecido · 891 × 36
+                └── Matriz candidata · 891 × 10 + target
+```
+
+---
+
+## Estructura general
+
+```text
+.
+├── README.md
+├── Semana_1/
+│   ├── MCDI503_F1_Formativa_Grupo6/
+│   └── MCDI503_F1_Sumativa_Grupo6/
 │
-└── MCDI503_F1_Sumativa_Grupo6/
-    ├── data/
-    ├── figures/
-    ├── notebooks/
-    ├── outputs/
-    ├── Reports/
+├── Semana_2/
+│   ├── MCDI503_F2_Formativa_Grupo6/
+│   └── MCDI503_F2_Sumativa_Grupo6/
+│
+└── Semana_3/
     ├── README.md
-    ├── SHA256_INPUT.txt
-    ├── environment.yml
-    └── requirements.txt
+    ├── Formativa/
+    │   └── MCDI503_F4_Formativa_Grupo6/
+    └── Sumativa/
+        └── MCDI503_F4_Sumativa_Grupo6/
 ```
 
-## Fase 1 Formativa
+Cada subcarpeta incluye su propio `README.md` cuando corresponde, con el alcance, los archivos de entrega y las instrucciones específicas de reproducción.
 
-La carpeta `MCDI503_F1_Formativa_Grupo6` contiene la definición inicial del proyecto y la evidencia técnica utilizada para caracterizar el conjunto de datos y planificar el análisis exploratorio.
+---
 
-Incluye:
+## Semana 1 · Fase 1
 
-- caracterización inicial del dataset;
+### Evaluación Formativa 1
+
+Corresponde a la definición inicial del proyecto y a la planificación del análisis exploratorio. Incluye:
+
+- caracterización del dataset;
 - identificación de variables, tipos y valores faltantes;
-- preguntas exploratorias P1-P5;
-- supuestos y limitaciones preliminares;
-- organización prevista del EDA;
-- criterios iniciales de reproducibilidad;
-- notebook ejecutado de planificación y caracterización;
-- informe formativo en PDF.
+- formulación de preguntas exploratorias;
+- supuestos y limitaciones iniciales;
+- planificación reproducible del EDA;
+- notebook ejecutado e informe formativo en PDF.
 
-## Fase 1 Sumativa
+Ruta:
 
-La carpeta `MCDI503_F1_Sumativa_Grupo6` contiene la implementación reproducible del EDA planificado.
+```text
+Semana_1/MCDI503_F1_Formativa_Grupo6/
+```
 
-Incluye:
+### Evaluación Sumativa 1
 
-- notebook ejecutado de principio a fin;
-- diagnóstico de calidad de datos;
+Implementa el primer EDA reproducible sobre Titanic. Incluye:
+
+- diagnóstico de calidad;
 - análisis univariado y bivariado;
-- transformaciones derivadas (`FamilySize` e `IsAlone`);
-- documentación trazable de decisiones exploratorias;
-- tablas y figuras generadas mediante código;
-- manifiesto del entorno de ejecución;
-- validación técnica de coherencia;
-- informe sumativo en PDF.
+- variables derivadas iniciales;
+- visualizaciones generadas mediante código;
+- documentación de decisiones;
+- controles de integridad y validación;
+- notebook ejecutado e informe sumativo.
 
-## Dataset
-
-Se utiliza el conjunto `titanic` distribuido mediante Seaborn.
-
-Archivo de entrada:
+Ruta:
 
 ```text
-titanic_seaborn.csv
+Semana_1/MCDI503_F1_Sumativa_Grupo6/
 ```
 
-Dimensiones:
+---
+
+## Semana 2 · Fases 2 y 3
+
+### Evaluación Formativa 2
+
+Planifica la preparación e integración de datos y la continuación del análisis exploratorio. El producto académico corresponde a un informe formativo en PDF.
+
+Ruta:
 
 ```text
-891 registros × 15 variables
+Semana_2/MCDI503_F2_Formativa_Grupo6/
 ```
 
-SHA-256:
+### Evaluación Sumativa 2
+
+Implementa el flujo reproducible de calidad, limpieza, integración y preparación del dataset, junto con análisis exploratorio complementario.
+
+Entre sus principales productos se encuentra:
 
 ```text
-43af81a01f25a7771c9a42809a31625f4d0de3f335cdf29961f9ba179a86c13d
+data/process/titanic_f23_prepared.csv
 ```
 
-El archivo original se conserva sin sobrescritura y las transformaciones se realizan mediante código reproducible.
+Este archivo conserva **891 registros** y amplía la representación preparada a **29 variables**, constituyendo la entrada técnica de continuidad para la Fase 4.
+
+Ruta:
+
+```text
+Semana_2/MCDI503_F2_Sumativa_Grupo6/
+```
+
+---
+
+## Semana 3 · Fase 4
+
+La Semana 3 separa explícitamente la actividad formativa de la evaluación sumativa.
+
+### Evaluación Formativa Fase 4
+
+Presenta el plan de ingeniería de variables y selección preliminar de características que posteriormente se implementa en el cierre sumativo.
+
+Ruta:
+
+```text
+Semana_3/Formativa/MCDI503_F4_Formativa_Grupo6/
+```
+
+Producto principal:
+
+```text
+Reports/mcdi503_f4_formativo_grupo6.pdf
+```
+
+### Evaluación Sumativa Fase 4
+
+Corresponde al cierre técnico del proyecto mediante un pipeline exploratorio reproducible que integra:
+
+- transformaciones y normalizaciones;
+- creación de variables derivadas;
+- codificación de variables categóricas;
+- selección preliminar de características;
+- auditorías de decisiones y efectos;
+- validaciones de integridad y trazabilidad;
+- dataset enriquecido;
+- matriz candidata y target separados;
+- informe final y material de presentación.
+
+Ruta:
+
+```text
+Semana_3/Sumativa/MCDI503_F4_Sumativa_Grupo6/
+```
+
+Resultados estructurales del cierre:
+
+- registros preservados: **891**;
+- variables originales conservadas: **15**;
+- dataset preparado de entrada: **891 × 29**;
+- dataset enriquecido final: **891 × 36**;
+- matriz candidata de características: **891 × 10**;
+- matriz candidata sin valores faltantes;
+- target separado de la matriz de características;
+- validaciones finales del pipeline superadas.
+
+---
+
+## Continuidad y trazabilidad de los datos
+
+El proyecto mantiene el mismo conjunto de observaciones de Titanic durante las distintas fases.
+
+La continuidad entre las Semanas 2 y 3 se conserva mediante el archivo:
+
+```text
+titanic_f23_prepared.csv
+```
+
+La copia generada en la Sumativa de Semana 2 y la utilizada como entrada en la Sumativa de Semana 3 corresponden al mismo artefacto preparado, permitiendo mantener trazabilidad entre preparación, ingeniería de variables y selección preliminar.
+
+Los archivos originales se conservan separados de los productos derivados mediante las carpetas `data/input/` y `data/process/`.
+
+---
 
 ## Reproducibilidad
 
-Cada entrega mantiene de forma independiente:
+Las dependencias se documentan **por entrega técnica**, ya que los entornos utilizados en las distintas fases no son idénticos. Por esta razón, el repositorio no utiliza un `requirements.txt` global.
 
-- `requirements.txt`, con las dependencias utilizadas;
-- `environment.yml`, con la definición del entorno;
-- `SHA256_INPUT.txt`, para verificar la integridad del dataset;
-- rutas relativas dentro del proyecto;
-- separación entre datos de entrada, productos derivados, notebooks, figuras y reportes;
-- archivos `.gitignore` y `.gitattributes` para evitar artefactos temporales y preservar la integridad del archivo de entrada.
+Los proyectos que contienen notebooks reproducibles incorporan su propio archivo de dependencias:
 
-Los notebooks incluyen celdas narrativas y código ejecutable con trazabilidad entre datos, decisiones, transformaciones y resultados.
+```text
+Semana_1/MCDI503_F1_Formativa_Grupo6/requirements.txt
+Semana_1/MCDI503_F1_Sumativa_Grupo6/requirements.txt
+Semana_2/MCDI503_F2_Sumativa_Grupo6/requirements.txt
+Semana_3/Sumativa/MCDI503_F4_Sumativa_Grupo6/requirements.txt
+```
 
-## Entregables
+La Semana 1 incorpora adicionalmente archivos `environment.yml` y controles SHA-256. Las fases posteriores mantienen trazabilidad mediante manifiestos, registros del entorno, controles de entrada y archivos de auditoría generados por los propios notebooks.
 
-### Formativa
-- `Semana_1/MCDI503_F1_Formativa_Grupo6/Reports/mcdi503_f1f_grupo6.pdf`
+Los notebooks se encuentran ejecutados y conservan código, narrativa y resultados de la corrida correspondiente a cada entrega.
 
-### Sumativa
-- `Semana_1/MCDI503_F1_Sumativa_Grupo6/Reports/mcdi503_f1_sumativo_grupo6.pdf`
-- `Semana_1/MCDI503_F1_Sumativa_Grupo6/notebooks/mcdi503_f1_sumativo_grupo6.ipynb`
+### Reproducción de una entrega técnica
 
-## Alcance
+Desde la raíz del subproyecto que se desea reproducir:
 
-El análisis desarrollado en la Fase 1 es de carácter exploratorio y descriptivo. Los resultados permiten caracterizar el comportamiento de las variables disponibles y documentar asociaciones observadas dentro del conjunto de datos, sin establecer relaciones causales.
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Luego debe abrirse el notebook indicado en el `README.md` de esa entrega y ejecutarse desde el inicio, manteniendo la estructura original de carpetas para preservar las rutas relativas.
+
+---
+
+## Entregables académicos principales
+
+| Semana | Evaluación | Producto principal |
+|---|---|---|
+| 1 | Formativa 1 | `Semana_1/MCDI503_F1_Formativa_Grupo6/Reports/mcdi503_f1f_grupo6.pdf` |
+| 1 | Sumativa 1 | `Semana_1/MCDI503_F1_Sumativa_Grupo6/Reports/mcdi503_f1_sumativo_grupo6.pdf` |
+| 2 | Formativa 2 | `Semana_2/MCDI503_F2_Formativa_Grupo6/mcdi503_f23f_grupo6.pdf` |
+| 2 | Sumativa 2 | `Semana_2/MCDI503_F2_Sumativa_Grupo6/Reports/mcdi503_f23_sumativo_grupo6.pdf` |
+| 3 | Formativa Fase 4 | `Semana_3/Formativa/MCDI503_F4_Formativa_Grupo6/Reports/mcdi503_f4_formativo_grupo6.pdf` |
+| 3 | Sumativa Fase 4 | `Semana_3/Sumativa/MCDI503_F4_Sumativa_Grupo6/reports/mcdi503_f4_sumativa3_grupo6.pdf` |
+
+El notebook ejecutado y los artefactos técnicos correspondientes permanecen dentro de cada subproyecto.
+
+---
+
+## Alcance metodológico
+
+El trabajo desarrollado es de carácter exploratorio y de preparación analítica. Las asociaciones observadas en el dataset no se interpretan como relaciones causales. La selección de características de la Fase 4 es **preliminar** y deja una base reproducible preparada para una eventual etapa posterior de modelamiento y validación predictiva.
+
+---
+
+## Estado del proyecto
+
+Las Semanas 1, 2 y 3 se encuentran organizadas como una secuencia continua del mismo proyecto sobre Titanic. La estructura del repositorio separa claramente entregas formativas, sumativas, datos originales, productos procesados, notebooks, salidas, figuras e informes, manteniendo trazabilidad entre fases y evitando sobrescribir los insumos originales.
