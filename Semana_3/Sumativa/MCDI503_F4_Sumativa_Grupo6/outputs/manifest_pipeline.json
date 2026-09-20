@@ -1,0 +1,31 @@
+{
+  "proyecto": "MCDI503 Fase 4 Sumativa 3 Grupo 6",
+  "execution_utc": "2026-09-20T20:37:00.021565+00:00",
+  "source_raw_sha256": "81787d320d7f7b03df935e91de8bd19e11d45c5bbcab86ef4d4a76dc91b7d4f2",
+  "source_prepared_sha256": "65f88a53de8e8212f87232b4535943dd7f15e65608fe8a4cc59c7962df054f06",
+  "rows_input": 891,
+  "rows_final": 891,
+  "all_validations_passed": true,
+  "selected_features_conceptual": [
+    "age_z",
+    "fare_log1p_z",
+    "pclass",
+    "sex",
+    "embarked_clean",
+    "family_size",
+    "family_size_sq",
+    "is_minor"
+  ],
+  "model_matrix_columns": [
+    "age_z",
+    "fare_log1p_z",
+    "family_size",
+    "family_size_sq",
+    "is_minor",
+    "sex_male",
+    "pclass_2",
+    "pclass_3",
+    "embarked_clean_Q",
+    "embarked_clean_S"
+  ]
+}
