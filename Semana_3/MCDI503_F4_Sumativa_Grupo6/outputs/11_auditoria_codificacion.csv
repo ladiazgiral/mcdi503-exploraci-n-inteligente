@@ -1,0 +1,4 @@
+variable,metodo,categorias_observadas,categoria_referencia
+sex,one-hot con drop_first=True,female | male,female
+pclass,one-hot con drop_first=True,1 | 2 | 3,1
+embarked_clean,one-hot con drop_first=True,C | Q | S,C

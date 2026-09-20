@@ -1,0 +1,5 @@
+variable_nueva,variables_origen,regla,utilidad_esperada
+is_minor,age_clean,1 si age_clean < 16; 0 en otro caso,Representar un umbral etario interpretable sin reemplazar la edad continua.
+sex_pclass,sex + pclass,Concatenación categórica de sexo y clase,Permitir revisar una interacción entre dos dimensiones relevantes del análisis previo.
+family_size_sq,family_size,family_size ** 2,Representar una posible relación no lineal del tamaño familiar.
+has_family,family_size,1 si family_size > 1; 0 si viaja solo según parentescos registrados,Disponer de una representación binaria interpretable del acompañamiento familiar registrado.

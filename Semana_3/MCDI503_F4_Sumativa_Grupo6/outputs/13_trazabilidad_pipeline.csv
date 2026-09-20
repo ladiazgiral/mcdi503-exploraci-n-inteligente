@@ -1,0 +1,8 @@
+orden,etapa,entrada,salida,criterio
+1,Carga y validación,titanic.csv + titanic_f23_prepared.csv,controles y revisión inicial,"Continuidad con Fases 2-3, preservación de columnas originales y validación de estructura."
+2,Transformación de tarifa,fare,fare_log1p_f4,Reconstruir log1p y medir su efecto sin modificar la variable original.
+3,Normalización numérica,age_clean + fare_log1p_f4,age_z + fare_log1p_z,Generar representaciones centradas y con desviación estándar unitaria.
+4,Ingeniería de variables,age_clean + sex + pclass + family_size,is_minor + sex_pclass + family_size_sq + has_family,"Representar umbral, interacción y alternativas de forma funcional."
+5,Selección preliminar,"variables originales, preparadas y derivadas",tabla seleccionar/revisar/descartar,"Relevancia, redundancia, interpretabilidad, fuga de información y consistencia."
+6,Codificación categórica,sex + pclass + embarked_clean,indicadores binarios con referencia explícita,Evitar imponer distancias lineales en categorías y evitar redundancia perfecta mediante drop_first.
+7,Validación final,dataset enriquecido + matriz candidata + target,controles de integridad,"Trazabilidad, consistencia interna y reproducibilidad."

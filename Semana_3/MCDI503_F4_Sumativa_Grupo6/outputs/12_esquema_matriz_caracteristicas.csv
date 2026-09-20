@@ -1,0 +1,11 @@
+variable,tipo,n_unicos,n_missing
+age_z,float64,89,0
+fare_log1p_z,float64,248,0
+family_size,int64,9,0
+family_size_sq,float64,9,0
+is_minor,int8,2,0
+sex_male,int8,2,0
+pclass_2,int8,2,0
+pclass_3,int8,2,0
+embarked_clean_Q,int8,2,0
+embarked_clean_S,int8,2,0
